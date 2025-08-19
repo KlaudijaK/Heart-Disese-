@@ -8,22 +8,87 @@ This project aims to predict the presence of heart disease in patients based on 
 
 Data Description 📁
 
+Age:
 
-Column /	    Description	Type /                      Values
-age-        Age of the patient	                Numeric (years)
-sex-        Gender of the patient            	1 = male, 0 = female
-cp-         Chest pain                          type	1 = typical angina, 2 = atypical angina, 3 = non-anginal pain, 4 = asymptomatic
-trestbps-	Resting blood pressure	            Numeric (mm Hg)
-chol-	    Serum cholesterol	                Numeric (mg/dl)
-fbs-	    Fasting blood sugar > 120 mg/dl  	1 = true, 0 = false
-restecg-	Resting electrocardiographic results	0 = normal, 1 = ST-T wave abnormality, 2 = left ventricular hypertrophy
-thalach-	Maximum heart rate achieved	        Numeric
-exang-    	Exercise-induced angina         	1 = yes, 0 = no
-oldpeak-	ST depression induced by exercise relative to rest	/Numeric (continuous)
-slope-   	Slope of the peak exercise ST segment   /1 = upsloping, 2 = flat, 3 = downsloping
-ca-	        Number of major vessels colored by fluoroscopy /	0–3 (integer)
-thal-	    Thalassemia type	                3 = normal, 6 = fixed defect, 7 = reversible defect
-target-   	Presence of heart disease	        1 = disease, 0 = no disease  
+Description: Age of the patient.
+Type: Numeric (integer).
+Units: Years.
+
+Sex:
+
+Description: Gender of the patient.
+Type: Categorical (binary).
+Values: 1 = male, 0 = female.
+cp (chest pain type):
+
+Description: Type of chest pain experienced by the patient.
+Type: Categorical.
+Values:
+1 = typical angina
+2 = atypical angina
+3 = non-anginal pain
+4 = asymptomatic
+
+Trestbps (resting blood pressure):
+Description: Resting blood pressure of the patient.
+Type: Numeric (integer).
+Units: mm Hg.
+
+chol (serum cholesterol):
+Description: Cholesterol level in the patient's serum.
+Type: Numeric (integer).
+Units: mg/dl.
+
+fbs (fasting blood sugar > 120 mg/dl):
+Description: Indicates if fasting blood sugar is greater than 120 mg/dl.
+Type: Categorical (binary).
+Values: 1 = true, 0 = false.
+
+restecg (resting electrocardiographic results):
+Description: Results of the patient’s resting electrocardiogram.
+Type: Categorical.
+Values:
+0 = normal
+1 = ST-T wave abnormality
+2 = left ventricular hypertrophy
+
+thalach (maximum heart rate achieved):
+Description: Maximum heart rate achieved during exercise.
+Type: Numeric (integer).
+
+exang (exercise-induced angina):
+Description: Presence of exercise-induced angina.
+Type: Categorical (binary).
+Values: 1 = yes, 0 = no.
+
+oldpeak:
+Description: ST depression induced by exercise relative to rest.
+Type: Numeric (continuous).
+
+slope (slope of the peak exercise ST segment):
+Description: Describes the slope of the peak exercise ST segment.
+Type: Categorical.
+Values:
+1 = upsloping
+2 = flat
+3 = downsloping
+ca (number of major vessels colored by fluoroscopy):
+
+Description: Number of major vessels (0-3) colored by fluoroscopy.
+Type: Categorical.
+
+thal (thalassemia type):
+Description: The type of thalassemia the patient has.
+Type: Categorical.
+Values:
+3 = normal
+6 = fixed defect
+7 = reversible defect
+
+target:
+Description: Indicates the presence of heart disease.
+Type: Categorical (binary).
+Values: 1 = disease present, 0 = no disease.
 
 
 
