@@ -1,10 +1,31 @@
-# Heart-Disease-
+[heart.csv](https://github.com/user-attachments/files/21854260/heart.csv)[table.tsv](https://github.com/user-attachments/files/21854215/table.tsv)# Heart-Disease- 
 Machine Learning Project
 
 Cardiovascular disease refers to any critical condition that impacts the heart. Because heart diseases can be life-threatening, researchers are focusing on designing smart systems to accurately diagnose them based on electronic health data, with the aid of machine learning algorithms. This work presents several machine learning approaches for predicting heart diseases, using data of major health factors from patients.
 
-Project Description
+Project Description 
 This project aims to predict the presence of heart disease in patients based on various health metrics. With cardiovascular diseases being a leading cause of death globally, early detection can play a crucial role in prevention and treatment. By analyzing patient data, our model helps medical professionals identify individuals at high risk of heart disease.
+
+Data Description 📁
+
+
+Column /	    Description	Type /                      Values
+age-        Age of the patient	                Numeric (years)
+sex-        Gender of the patient            	1 = male, 0 = female
+cp-         Chest pain                          type	1 = typical angina, 2 = atypical angina, 3 = non-anginal pain, 4 = asymptomatic
+trestbps-	Resting blood pressure	            Numeric (mm Hg)
+chol-	    Serum cholesterol	                Numeric (mg/dl)
+fbs-	    Fasting blood sugar > 120 mg/dl  	1 = true, 0 = false
+restecg-	Resting electrocardiographic results	0 = normal, 1 = ST-T wave abnormality, 2 = left ventricular hypertrophy
+thalach-	Maximum heart rate achieved	        Numeric
+exang-    	Exercise-induced angina         	1 = yes, 0 = no
+oldpeak-	ST depression induced by exercise relative to rest	/Numeric (continuous)
+slope-   	Slope of the peak exercise ST segment   /1 = upsloping, 2 = flat, 3 = downsloping
+ca-	        Number of major vessels colored by fluoroscopy /	0–3 (integer)
+thal-	    Thalassemia type	                3 = normal, 6 = fixed defect, 7 = reversible defect
+target-   	Presence of heart disease	        1 = disease, 0 = no disease  
+
+
 
 Purpose
 The primary purpose of this project is to leverage data analytics and machine learning to:
@@ -14,7 +35,6 @@ Provide a predictive tool to assist healthcare professionals in decision-making.
 Enhance understanding of the relationship between various health metrics and heart disease.
 
 
-Sure! Here's a template for a README file that you can adapt for your project. This structure helps convey what your project is about, its purpose, the technologies used, and any challenges that were encountered:
 
 Heart Disease Prediction Project
 Project Description
