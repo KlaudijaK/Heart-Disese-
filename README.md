@@ -139,3 +139,5 @@ Complex Interactions: Understanding and visualizing the complex relationships an
 
 Conclusion
 The heart disease prediction model developed in this project provides a powerful tool for healthcare professionals. By identifying at-risk individuals early on, it opens the door for preventative measures and better patient outcomes. Going forward, refining the model using more diverse datasets and feature engineering techniques could further enhance its utility.
+
+Link for data set: https://data-pt-april-2025.slack.com/archives/D08LPDG5X16/p1755618365496529
