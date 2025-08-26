@@ -141,3 +141,8 @@ Conclusion
 The heart disease prediction model developed in this project provides a powerful tool for healthcare professionals. By identifying at-risk individuals early on, it opens the door for preventative measures and better patient outcomes. Going forward, refining the model using more diverse datasets and feature engineering techniques could further enhance its utility.
 
 Link for data set: https://data-pt-april-2025.slack.com/archives/D08LPDG5X16/p1755618365496529
+
+
+<img width="691" height="545" alt="ef3c4aa7-b931-4fa0-97a9-4131284dbf6b" src="https://github.com/user-attachments/assets/4a1e055f-92af-4881-afe2-ea8e9b7672d3" />
+<img width="680" height="526" alt="be990042-2b72-4a85-ac80-eb30be0ecec1" src="https://github.com/user-attachments/assets/7b0cf91b-0446-40cc-b8f8-aaa1ee118694" />
+<img width="790" height="390" alt="1b2b846b-fab7-41d5-b61d-25958ca0df15" src="https://github.com/user-attachments/assets/a02aab0b-e618-4bb3-89c8-d3eaa35e2acc" />
